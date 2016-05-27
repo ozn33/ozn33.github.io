@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
 }, false);
 
 function register() {
-  navigator.serviceWorker.register('https://dl.dropboxusercontent.com/u/34999621/push/push.js').then(checkNotification);
+  navigator.serviceWorker.register('push.js').then(checkNotification);
 }
 
 function checkNotification() {
